@@ -329,6 +329,7 @@ header .max-contaoner {
     min-width: 300px;
     text-align: center;
     position: relative;
+    overflow: hidden;
 }
 
 .product-img-content{
