@@ -52,9 +52,13 @@ function showProduc(flashSalesProducts) {
             <span class="discount">-${a.discount}%</span>
             <img src="${a.image}" alt="${a.name}">
             </div>
-            <h3>${a.name}</h3>
+            <div class="about-product">
+           <h3>${a.name}</h3>
             <p class="price">$${a.price} <span class="old-price">$${a.name}</span></p>
             <p class="rating">⭐⭐⭐⭐⭐ (${a.reviews})</p>
+            <>
+            <>
+            </div>
         </div>
             `
         )
