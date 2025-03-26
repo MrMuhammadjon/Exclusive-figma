@@ -56,8 +56,9 @@ function showProduc(flashSalesProducts) {
            <h3>${a.name}</h3>
             <p class="price">$${a.price} <span class="old-price">$${a.name}</span></p>
             <p class="rating">⭐⭐⭐⭐⭐ (${a.reviews})</p>
-            <>
-            <>
+            <button class="add-product">
+            add
+            </button>
             </div>
         </div>
             `

@@ -401,6 +401,23 @@ header .max-contaoner {
 }
 
 
+.add-product{
+    width: 100px;
+    color: var(--white-color-1);
+    border-radius: 10px;
+    cursor: pointer;
+    height: 30px;
+    background-color: var(--red-color-1);
+    border: 1px solid var(--red-color-1);
+    transition: 0.3s ease;
+}
+
+.add-product:hover{
+    background: none;
+    color: var(--red-color-1);
+}
+
+
 /*  responsive */
 
 
